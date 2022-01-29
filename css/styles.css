@@ -14,6 +14,7 @@
     --bg-grey-color:#F5F4FA;
     --bg-btm-color: #188ce8;
     --frame-color: #EEEEEE;
+    --socials-color: #AFB1B8;
     
 }
 p, h1, h2, h3, h4, h5, h6 {
@@ -278,11 +279,22 @@ color: var(--logo-footer-color);
         height: 44px;
         background-color: var(--white-color);
         border-radius: 50%;
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .team-socials-icon {
+        fill: var(--socials-color);
     }
     .team-socials-item + .team-socials-item {
-        margin-right: 10px;
+        margin-left: 10px;
     }
+    .team-socials-link:hover {
+        background-color: var(--accent-color);
+    } 
+     .team-socials-link:hover .team-socials-icon {
+        fill: var(--white-color);
+    } 
     /* -----------------------Footer------------------------ */
     .footer {
        background-color: var(--bg-black-color);
