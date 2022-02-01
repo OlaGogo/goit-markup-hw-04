@@ -148,14 +148,12 @@ color: var(--logo-footer-color);
 /* -------------Hero----------------- */
   .hero {
     max-width: 1600px;
-    
    background-color: var(--bg-black-color);
    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    flex-grow: 1;
     margin-left: auto;
     margin-right: auto;
    padding-top: 200px;
@@ -364,7 +362,7 @@ width: 270px;
     .clients-link:hover,
     .clients-link:focus {
         color: var(--accent-color);
-        border: solid var(--accent-color)
+        border: 1px solid var(--accent-color)
     }
 
     .clients-item + .clients-item {
@@ -529,7 +527,7 @@ margin-bottom: 30px;
   .works-item {
       display: block;
   }
-  .works-item:hover,
-  .works-item:focus {
+  .works-link-container:hover,
+  .works-link-container:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   }
